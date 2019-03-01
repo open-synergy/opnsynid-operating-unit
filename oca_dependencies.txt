@@ -15,4 +15,5 @@
 operating-unit https://github.com/open-synergy/operating-unit.git 8.0-dev
 opnsynid-l10n-indonesia https://github.com/open-synergy/opnsynid-l10n-indonesia.git 8.0
 opnsynid-hr https://github.com/open-synergy/opnsynid-hr.git 8.0
+opnsynid-account-financial-tools https://github.com/open-synergy/opnsynid-account-financial-tools.git 8.0
 web https://github.com/oca/web.git 8.0
