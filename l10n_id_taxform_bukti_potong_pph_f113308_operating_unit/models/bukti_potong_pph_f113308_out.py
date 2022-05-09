@@ -7,7 +7,4 @@ from openerp import models
 
 class BuktiPotongPPhF113308Out(models.Model):
     _name = "l10n_id.bukti_potong_pph_f113308_out"
-    _inherit = [
-        "l10n_id.bukti_potong_pph_f113308_out",
-        "l10n_id.bukti_potong_pph"
-    ]
+    _inherit = ["l10n_id.bukti_potong_pph_f113308_out", "l10n_id.bukti_potong_pph"]

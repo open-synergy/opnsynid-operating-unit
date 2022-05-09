@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <openerp>
     <data noupdate="1">
-        <record id="ir_rule_account_asset_retirment_by_scrap_allowed_operating_units" model="ir.rule">
-            <field name="model_id" ref="account_asset_management_retirement_by_scrap.model_account_asset_retirement_scrap"/>
-            <field name="domain_force">['|',('asset_id.operating_unit_id','=',False),('asset_id.operating_unit_id','in',[g.id for g in user.operating_unit_ids])]</field>
-            <field name="name">Account Asset Retirement by Scrap from allowed operating units</field>
-            <field name="global" eval="True"/>
-            <field eval="0" name="perm_unlink"/>
-            <field eval="0" name="perm_write"/>
-            <field eval="1" name="perm_read"/>
-            <field eval="0" name="perm_create"/>
+        <record
+            id="ir_rule_account_asset_retirment_by_scrap_allowed_operating_units"
+            model="ir.rule"
+        >
+            <field
+                name="model_id"
+                ref="account_asset_management_retirement_by_scrap.model_account_asset_retirement_scrap"
+            />
+            <field
+                name="domain_force"
+            >['|',('asset_id.operating_unit_id','=',False),('asset_id.operating_unit_id','in',[g.id for g in user.operating_unit_ids])]</field>
+            <field
+                name="name"
+            >Account Asset Retirement by Scrap from allowed operating units</field>
+            <field name="global" eval="True" />
+            <field eval="0" name="perm_unlink" />
+            <field eval="0" name="perm_write" />
+            <field eval="1" name="perm_read" />
+            <field eval="0" name="perm_create" />
         </record>
     </data>
 </openerp>

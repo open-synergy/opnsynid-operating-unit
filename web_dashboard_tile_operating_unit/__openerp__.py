@@ -5,17 +5,11 @@
 {
     "name": "Dashboard Tile with Operating Units",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
+    "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
     "license": "AGPL-3",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "category": "Localization",
-    "depends": [
-        "web_dashboard_tile",
-        "operating_unit"
-    ],
-    "data": [
-        "security/tile_tile_security.xml",
-        "views/tile_tile_views.xml"
-    ],
+    "depends": ["web_dashboard_tile", "operating_unit"],
+    "data": ["security/tile_tile_security.xml", "views/tile_tile_views.xml"],
     "installable": True,
 }
