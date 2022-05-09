@@ -5,17 +5,15 @@
 {
     "name": "Asset Management Retirement by Donation with Operating Units",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
+    "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
     "license": "AGPL-3",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "category": "Accounting",
     "depends": [
         "account_asset_management_operating_unit",
-        "account_asset_management_retirement_by_donation"
+        "account_asset_management_retirement_by_donation",
     ],
-    "data": [
-        "security/account_asset_retirement_by_donation_security.xml"
-    ],
+    "data": ["security/account_asset_retirement_by_donation_security.xml"],
     "installable": True,
-    "auto_install": True
+    "auto_install": True,
 }

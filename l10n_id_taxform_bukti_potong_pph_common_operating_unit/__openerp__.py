@@ -4,20 +4,15 @@
 # pylint: disable=locally-disabled, manifest-required-author
 {
     "name": "Indonesia - Common Feature "
-            "for Bukti Potong PPh "
-            "with Operating Units",
+    "for Bukti Potong PPh "
+    "with Operating Units",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
+    "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
     "license": "AGPL-3",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "category": "Localization",
-    "depends": [
-        "l10n_id_taxform_bukti_potong_pph_common",
-        "account_operating_unit"
-    ],
-    "data": [
-        "views/l10n_id_taxform_bukti_potong_pph_views.xml"
-    ],
+    "depends": ["l10n_id_taxform_bukti_potong_pph_common", "account_operating_unit"],
+    "data": ["views/l10n_id_taxform_bukti_potong_pph_views.xml"],
     "installable": True,
-    "auto_install": False
+    "auto_install": False,
 }
