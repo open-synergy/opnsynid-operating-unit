@@ -7,6 +7,7 @@ include_aeroo_report: false
 include_wkhtmltopdf: false
 odoo_version: 8.0
 rebel_module_groups:
+  - account_asset_management_config_page
   - account_asset_management_extend
 repo_description: opnsynid-operating-unit
 repo_name: opnsynid-operating-unit
