@@ -22,10 +22,12 @@ jobs:
     # Test all other addons together
     - stage: test
       env:
-        - TESTS=1 ODOO_REPO="odoo/odoo" MAKEPOT=1 EXCLUDE="account_asset_management_*"
+        - TESTS=1 ODOO_REPO="odoo/odoo" MAKEPOT=1
+          EXCLUDE="account_asset_management_capital_improvement_operating_unit,account_asset_management_complex_asset_operating_unit,account_asset_management_estimation_change_operating_unit,account_asset_management_impairment_operating_unit,account_asset_management_operating_unit,account_asset_management_retirement_by_donation_operating_unit,account_asset_management_retirement_by_missing_operating_unit,account_asset_management_retirement_by_scrap_operating_unit,account_asset_management_retirement_by_stolen_operating_unit,account_asset_management_retirement_sale_operating_unit,account_asset_management_stock_operating_unit"
     - stage: test
       env:
-        - TESTS=1 ODOO_REPO="OCA/OCB" EXCLUDE="account_asset_management_*"
+        - TESTS=1 ODOO_REPO="OCA/OCB"
+          EXCLUDE="account_asset_management_capital_improvement_operating_unit,account_asset_management_complex_asset_operating_unit,account_asset_management_estimation_change_operating_unit,account_asset_management_impairment_operating_unit,account_asset_management_operating_unit,account_asset_management_retirement_by_donation_operating_unit,account_asset_management_retirement_by_missing_operating_unit,account_asset_management_retirement_by_scrap_operating_unit,account_asset_management_retirement_by_stolen_operating_unit,account_asset_management_retirement_sale_operating_unit,account_asset_management_stock_operating_unit"
 env:
   global:
     - VERSION="8.0" TESTS="0" LINT_CHECK="0" MAKEPOT="1"
